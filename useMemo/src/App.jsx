@@ -13,7 +13,9 @@ function App() {
   };
   const getNewNumber = (value) => {
     console.log("function is called");
-    for (let i = 0; i < 1000000000; i++) {}
+    for (let i = 0; i < 1000000000; i++) {
+      /* empty */
+    }
     return value * 2;
   };
   let themeColor = {
